@@ -4,7 +4,7 @@ def get_book_text():
     
 def get_number_of_words(text):
     words = text.split()
-    print(len(words))
+    print(len(words),"words found in the document")
 
 book_text = get_book_text()
 get_number_of_words(book_text)
