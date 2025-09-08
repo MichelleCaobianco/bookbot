@@ -15,7 +15,7 @@ if len(sys.argv) < 2:
 book_path = sys.argv[1] 
 
 print("============ BOOKBOT ============")
-print("Analyzing book found at {book_path}...")
+print(f"Analyzing book found at {book_path}...")
 print("----------- Word Count ----------")
 book_text = get_book_text(book_path)
 get_number_of_words(book_text)
