@@ -17,4 +17,4 @@ sorted_chars = sort_on(get_number_of_characters(book_text))
 
 for char, count in sorted_chars:
     if char.isalpha():
-        print(f"'{char}': {count}")
+        print(f"{char}": {count}")
