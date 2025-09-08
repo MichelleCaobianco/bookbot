@@ -1,6 +1,6 @@
 def get_number_of_words(text):
     words = text.split()
-    print(len(words),"words found in the document")
+    print("Found", len(words), "total words")  
 
 def get_number_of_characters(text):
     text = text.lower()
@@ -10,7 +10,6 @@ def get_number_of_characters(text):
             char_count[char] += 1
         else:
             char_count[char] = 1
-    print(char_count)  # <-- Move this line up  
     return char_count
     
 def sort_on(char_count):
