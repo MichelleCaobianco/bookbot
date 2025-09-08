@@ -9,7 +9,7 @@ def get_book_text(path):
         return file.read()
 
 if len(sys.argv) < 2:
-    print('Usage: python3 main.py "books/"')
+    print('Usage: python3 main.py <path_to_book>')
     sys.exit(1)    
 
 book_path = sys.argv[1] 
